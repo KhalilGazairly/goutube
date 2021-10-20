@@ -38,37 +38,37 @@ I had to change a style of Details Page to fit with any channel too.
 About The Project
 Angular Demo for the Youtube Data API v3 ( Non-OAuth )
 
-Requirements
- # •	Npm
- # •	TypeScript, a typed superset of JavaScript that compiles to plain JavaScript and provides type capabilities to JavaScript code
- #  	Angular, a JavaScript framework that allows you to create efficient and sophisticated single-page applications
- # •	RxJS, a library for composing asynchronous and event-based programs by using observable sequences.
- # •	API key From Google Console
- # •	PWA (server Worker)
+## Requirements
+  •	`Npm`
+  •	`TypeScript`
+    	`Angular`
+   •	`RxJS`, a library for composing asynchronous and event-based programs by using observable sequences.
+   •	`API` key From Google Console
+   •	`PWA` (server Worker)
 
 
 
-Results:
- # •	Integrate with YouTube official API. 
- # •	 Retrieve a list of videos from a specific YouTube channel (choose any channel as Init channel) 
- # •	 The app should cache and display the list of videos while offline after the first run.
- # •	2 pages (Home/Details) with SPA (Single page application)
+## Results:
+  •	Integrate with `YouTube official API`. 
+  •	 Retrieve a list of videos from a specific YouTube channel (choose any channel as Init channel) 
+  •	 The app should cache and display the list of videos while offline after the first run.
+  •	2 pages (Home/Details) with SPA (Single page application)
 
-Home Page
- # •	list of videos retrieved from integrated YouTube channel including videos date 
- #   o	Title 
- #   o	Thumbnail 
- #   o	View Details button in table view
- # •	Implement paging in the video table
- # •	Videos can be ordered by each table column when clicked on it.
- # •	Adding a search box at top of the table and should search in the videos titles.
+## Home Page
+  •	list of videos retrieved from integrated YouTube channel including videos date 
+    o	Title 
+    o	Thumbnail 
+    o	View Details button in table view
+  •	Implement paging in the video table
+  •	Videos can be ordered by each table column when clicked on it.
+  •	Adding a search box at top of the table and should search in the videos titles.
 
-Details Page
- # •	View full details of selected video
- #   o	Title 
- #   o	Upload date
- #   o	Duration  { still without Pipe to format it}
- #   o	 # of links 
- #   o	# of views 
- #   o	 Description Thumbnail
- # •	option to rate the video and adding the video to favorite list. With writing and reading the rate and favorite list from local storage
+## Details Page
+  •	View full details of selected video
+    o	Title 
+    o	Upload date
+    o	Duration  { still without Pipe to format it}
+    o	 No. of links 
+    o	 No. of views 
+    o	 Description Thumbnail
+  •	option to rate the video and adding the video to favorite list. With writing and reading the rate and favorite list from local storage
